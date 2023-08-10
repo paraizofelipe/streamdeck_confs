@@ -1,0 +1,324 @@
+{
+    "streamdeck_ui_version": 1,
+    "state": {
+        "AL29K2C63279": {
+            "buttons": {
+                "0": {
+                    "0": {
+                        "text": "",
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/spotify.brands.png",
+                        "switch_page": 3,
+                        "command": "xdotool search --name '^Spotify' windowactivate --sync key ctrl+e"
+                    },
+                    "1": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/chrome.brands.png",
+                        "switch_page": 0,
+                        "command": "google-chrome-stable"
+                    },
+                    "2": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/headset.solid.png",
+                        "keys": "",
+                        "switch_page": 4
+                    },
+                    "3": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/bluetooth.brands.png",
+                        "command": "blueman-manager"
+                    },
+                    "4": {
+                        "icon": "/home/paraizo/Imagens/streamdeck/smart_home.png",
+                        "switch_page": 5
+                    },
+                    "5": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/telegram-plane.brands.png",
+                        "command": "telegram-desktop"
+                    },
+                    "6": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/terminal.solid.png",
+                        "command": "alacritty"
+                    },
+                    "7": {
+                        "icon": "/home/paraizo/Imagens/streamdeck/slack.png",
+                        "command": "slack"
+                    },
+                    "8": {
+                        "icon": "/home/paraizo/Imagens/streamdeck/mongo.png",
+                        "switch_page": 0,
+                        "command": "mongodb-compass"
+                    },
+                    "9": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/power-off.solid.png",
+                        "command": "",
+                        "switch_page": 6
+                    },
+                    "10": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/shield-alt.solid.png",
+                        "keys": "",
+                        "command": "gpclient"
+                    },
+                    "11": {
+                        "icon": ""
+                    },
+                    "12": {},
+                    "13": {},
+                    "14": {}
+                },
+                "1": {
+                    "0": {
+                        "icon": ""
+                    },
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {
+                        "icon": ""
+                    },
+                    "6": {
+                        "icon": ""
+                    },
+                    "7": {
+                        "icon": ""
+                    },
+                    "8": {
+                        "icon": ""
+                    },
+                    "9": {
+                        "icon": ""
+                    },
+                    "10": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/angle-left.solid.png",
+                        "switch_page": 1
+                    },
+                    "11": {},
+                    "12": {},
+                    "13": {
+                        "icon": ""
+                    },
+                    "14": {}
+                },
+                "2": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/backward.solid.png",
+                        "keys": "",
+                        "command": "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Previous"
+                    },
+                    "7": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/play-circle.solid.png",
+                        "command": "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.PlayPause"
+                    },
+                    "8": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/forward.solid.png",
+                        "keys": "",
+                        "command": "dbus-send --print-reply --dest=org.mpris.MediaPlayer2.spotify /org/mpris/MediaPlayer2 org.mpris.MediaPlayer2.Player.Next"
+                    },
+                    "9": {},
+                    "10": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/angle-left.solid.png",
+                        "switch_page": 1
+                    },
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {}
+                },
+                "3": {
+                    "0": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/hand-paper.solid.png",
+                        "command": "xdotool search --name '^Meet:' windowactivate --sync key ctrl+alt+h",
+                        "keys": ""
+                    },
+                    "1": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/video.solid.png",
+                        "command": "xdotool search --name '^Meet:' windowactivate --sync key ctrl+e"
+                    },
+                    "2": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/microphone.solid.png",
+                        "command": "xdotool search --name '^Meet:' windowactivate --sync key ctrl+d"
+                    },
+                    "3": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/comment-alt.solid.png",
+                        "command": "xdotool search --name '^Meet:' windowactivate --sync key ctrl+alt+c"
+                    },
+                    "4": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/user-friends.solid.png",
+                        "command": "xdotool search --name '^Meet:' windowactivate --sync key ctrl+alt+p"
+                    },
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/angle-left.solid.png",
+                        "switch_page": 1
+                    },
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {}
+                },
+                "4": {
+                    "0": {
+                        "text": "",
+                        "command": "bash -c \"cd ~/projects/py_iot && poetry run local_iot switch Teto\"",
+                        "icon": "/home/paraizo/Imagens/pendant.png"
+                    },
+                    "1": {
+                        "command": "bash -c \"cd ~/projects/py_iot && poetry run local_iot color Teto white\"",
+                        "text": "",
+                        "icon": "/home/paraizo/Imagens/white.png"
+                    },
+                    "2": {
+                        "command": "",
+                        "text": "",
+                        "icon": ""
+                    },
+                    "3": {
+                        "icon": ""
+                    },
+                    "4": {},
+                    "5": {
+                        "command": "bash -c \"cd ~/projects/py_iot && poetry run local_iot switch LED\"",
+                        "text": "",
+                        "keys": "",
+                        "icon": "/home/paraizo/Imagens/lightstrip.png"
+                    },
+                    "6": {
+                        "icon": "/home/paraizo/Imagens/white.png",
+                        "command": "bash -c \"cd ~/projects/py_iot && poetry run local_iot color Mesa white\""
+                    },
+                    "7": {
+                        "icon": "/home/paraizo/Imagens/magenta.png",
+                        "command": "bash -c \"cd ~/projects/py_iot && poetry run local_iot color Mesa magenta\""
+                    },
+                    "8": {
+                        "icon": "/home/paraizo/Imagens/turquoise.png",
+                        "command": "bash -c \"cd ~/projects/py_iot && poetry run local_iot color Mesa turquoise\""
+                    },
+                    "9": {},
+                    "10": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/angle-left.solid.png",
+                        "switch_page": 1
+                    },
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {}
+                },
+                "5": {
+                    "0": {
+                        "command": "i3exit suspend",
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/moon.solid.png",
+                        "switch_page": 1
+                    },
+                    "1": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/power-off.solid.png",
+                        "command": "i3exit shutdown",
+                        "switch_page": 1
+                    },
+                    "2": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/lock.solid.png",
+                        "command": "i3exit lock",
+                        "switch_page": 1
+                    },
+                    "3": {
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/sync-alt.solid.png",
+                        "command": "i3exit reboot",
+                        "switch_page": 1
+                    },
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {
+                        "switch_page": 1,
+                        "icon": "/home/paraizo/Imagens/icons/72/Large/angle-left.solid.png"
+                    },
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {}
+                },
+                "6": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {},
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {}
+                },
+                "7": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {},
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {}
+                },
+                "8": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {},
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {}
+                },
+                "9": {
+                    "0": {},
+                    "1": {},
+                    "2": {},
+                    "3": {},
+                    "4": {},
+                    "5": {},
+                    "6": {},
+                    "7": {},
+                    "8": {},
+                    "9": {},
+                    "10": {},
+                    "11": {},
+                    "12": {},
+                    "13": {},
+                    "14": {}
+                }
+            },
+            "page": 0,
+            "brightness": 99,
+            "brightness_dimmed": 0
+        }
+    }
+}
